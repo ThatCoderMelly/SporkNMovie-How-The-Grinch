@@ -12,10 +12,6 @@ body {
     background-repeat: no-repeat;
 }
 
-@font-face {
-    font-family: "Grinched";
-    src: url("../fonts/Grinched.otf") format("opentype");
-}
 
 
 /* Whoville container */
@@ -68,19 +64,4 @@ body {
     margin-top: 15px;
     font-size: 20px;
     color: #333;
-}
-
-.scroll-container {
-    display: flex;
-    flex-direction: column;   /* stack image + text vertically */
-    align-items: center;      /* center horizontally */
-    text-align: center;
-}
-
-.scroll-text {
-    font-family: "grinched", Arial, sans-serif;
-    margin-top: 15px;         /* space between image and text */
-    font-size: 24px;          /* adjust as needed */
-    color: #080808;             /* or whatever color you want */
-    font-weight: bold;
 }
